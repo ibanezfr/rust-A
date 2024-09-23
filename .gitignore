@@ -40,22 +40,22 @@ config.stamp
 no_llvm_build
 
 ## Build
-/dl/
-/doc/
-/inst/
-/llvm/
-/mingw-build/
-build/
-!/compiler/rustc_mir_build/src/build/
-/build-rust-analyzer/
-/dist/
-/unicode-downloads
-/target/
-/library/target
-/src/bootstrap/target
-/src/tools/x/target
+**/dl/
+**/doc/
+**/inst/
+**/llvm/
+**/mingw-build/
+**/build/
+**!/compiler/rustc_mir_build/src/build/
+**/build-rust-analyzer/
+**/dist/
+**/unicode-downloads
+**/target
+**/library/target
+**/src/bootstrap/target
+**/src/tools/x/target
 # Created by default with `src/ci/docker/run.sh`
-/obj/
+**/obj/
 
 ## ICE reports
 rustc-ice-*.txt
